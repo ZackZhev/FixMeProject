@@ -9,5 +9,8 @@ export default defineConfig({
         manualChunks: undefined
       }
     }
+  },
+  preview: {
+    allowedHosts: ['fixmeproject.onrender.com'],
   }
 })
